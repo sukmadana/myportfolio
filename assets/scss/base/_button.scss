@@ -1,0 +1,10 @@
+.btn-primary{
+    @apply font-bold inline-block text-green-700 border border-2 border-green-700 py-5 px-8 transition-colors duration-300 cursor-pointer;
+    @apply hover:bg-green-700 hover:text-slate-100;
+}
+
+.btn-icon{
+    @apply rounded-full border border-green-700 text-lg text-green-700 w-[40px] h-[40px] flex items-center justify-center mr-4 transition-colors duration-300 cursor-pointer;
+    @apply hover:bg-green-700 hover:text-slate-100 dark:border-slate-100 dark:text-slate-100 dark:hover:border-green-700;
+
+}
