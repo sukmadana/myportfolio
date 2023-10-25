@@ -5,6 +5,7 @@
     <Banner />
     <About />
     <Skill />
+    <Experience />
   </div>
 </template>
 
