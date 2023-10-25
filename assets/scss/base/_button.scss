@@ -1,5 +1,5 @@
 .btn-primary{
-    @apply font-bold inline-block text-green-700 border border-2 border-green-700 py-5 px-8 transition-colors duration-300 cursor-pointer;
+    @apply font-bold text-center inline-block text-green-700 border border-2 border-green-700 py-5 px-8 transition-colors duration-300 cursor-pointer;
     @apply hover:bg-green-700 hover:text-slate-100;
 }
 

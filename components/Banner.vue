@@ -1,23 +1,23 @@
 <template>
     <div>
-        <div class="py-[120px] dark:bg-slate-800 dark:text-neutral-100">
+        <div class="py-[60px] lg:py-[120px] dark:bg-slate-800 dark:text-neutral-100">
             <div class="container">
-                <div class="w-9/12">
-                    <div class="mb-[32px] overflow-hidden">
+                <div class="w-full lg:w-9/12">
+                    <div class="mb-[24px] lg:mb-[32px] overflow-hidden">
                         <h1 class="title">
                             Hi, I'm a <span class="text-green-700">Fullstack</span> Web Developer
                         </h1>
                     </div>
-                    <div class="mb-[48px] w-10/12 overflow-hidden">
+                    <div class="mb-[30px] lg:mb-[48px] lg:w-10/12 overflow-hidden">
                         <p class="text-2xl text">
                             Please do not hesitate to contact me if you need assistance with your projects or in resolving a problem.
                         </p>
                     </div>
-                    <div class="flex items-center button-wrapper">
-                        <NuxtLink to="mailto:sukmadana2212@gmail.com" target="_blank" class="btn-primary mr-10">
+                    <div class="block md:flex md:items-center button-wrapper">
+                        <NuxtLink to="mailto:sukmadana2212@gmail.com" target="_blank" class="btn-primary !block sm:!inline-block mb-12 md:mb-0 md:mr-10">
                             <span>Contact Me</span> <UIcon class="font-base align-middle font-bold" name="i-heroicons-chevron-right-solid"/>
                         </NuxtLink>
-                        <NuxtLink to="https://github.com/sukmadana" target="_blank" class="text-green-700 font-bold flex items-center cursor-pointer hover:text-cyan-800 dark:hover:text-neutral-100 transition-colors">
+                        <NuxtLink to="https://github.com/sukmadana" target="_blank" class="text-green-700 font-bold justify-center md:justify-start flex items-center cursor-pointer hover:text-cyan-800 dark:hover:text-neutral-100 transition-colors">
                             <UIcon name="i-mdi-github text-2xl mr-2" /> <span>Github</span>
                         </NuxtLink>
                     </div>

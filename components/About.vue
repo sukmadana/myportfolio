@@ -1,19 +1,19 @@
 <template>
     <div>
-        <div class="py-[90px] dark:bg-slate-800 dark:text-neutral-100">
+        <div class="py-[40px] lg:py-[90px] dark:bg-slate-800 dark:text-neutral-100">
             <div class="container">
                 <div class="flex flex-wrap">
-                    <div class="w-full md:w-5/12 px-8">
+                    <div class="w-full md:w-5/12 px-4 mb-14 lg:mb-0 lg:px-8">
                         <div class="relative h-[450px] w-full">
-                            <div class="absolute -top-5 h-full w-[300px] left-16 border border-green-700"></div>
-                            <div class="absolute -bottom-5 h-full w-[300px] left-10 border border-green-700"></div>
+                            <div class="absolute -top-5 h-full w-full lg:w-[300px] left-4 lg:left-16 border border-green-700"></div>
+                            <div class="absolute -bottom-5 h-full w-full lg:w-[300px] left-0 lg:left-10 border border-green-700"></div>
                             <div class="absolute right-0 top-1/2 transform -translate-y-1/2 overflow-hidden rounded-full z-10">
                                 <img src="/image/about.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="w-full md:w-7/12 pl-20">
-                        <div class="w-9/12 h-full flex items-center">
+                    <div class="w-full md:w-7/12 pl-4 md:pl-20">
+                        <div class="w-full md:w-9/12 h-full flex items-center">
                             <div class="">
                                 <h3 class="text-green-700 mb-[12px]">About me</h3>
                                 <h2 class="mb-[32px]">Let me introduce my self</h2>

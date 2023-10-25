@@ -12,6 +12,12 @@ export default {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: '20px',
+        sm: '15px',
+        md:'15px',
+        lg: '0',
+      },
     },
     extend: {
       fontSize: {

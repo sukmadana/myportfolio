@@ -6,7 +6,7 @@
                     <h2 class="text-green-700">Skills</h2>
                 </div>
                 <div class="flex flex-wrap -mx-[15px]">
-                    <div class="w-4/12 px-[15px]">
+                    <div class="w-full mb-12 md:mb-0 md:w-4/12 px-[15px]">
                         <div>
                             <div class="relative flex justify-end">
                                 <Laravel class="h-[100px]" />
@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-4/12 px-[15px]">
+                    <div class="w-full mb-12 md:mb-0 md:w-4/12 px-[15px]">
                         <div>
                             <div class="relative flex justify-end">
                                 <Wordpress class="!h-[100px] !w-[100px]" />
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-4/12 px-[15px]">
+                    <div class="w-full md:w-4/12 px-[15px]">
                         <div>
                             <div class="relative flex justify-end">
                                 <Javas class="h-[100px]" />
