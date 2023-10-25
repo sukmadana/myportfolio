@@ -25,5 +25,6 @@ jobs:
             git status
             unset NPM_CONFIG_PREFIX
             nvm use 16
+            node -v
             npm install
             npm run generate
